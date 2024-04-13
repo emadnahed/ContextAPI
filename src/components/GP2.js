@@ -6,7 +6,7 @@ import { MyContext } from "../MyContext";
 
 const GP2 = () => {
   const { count, setCount } = useContext(MyContext);
-
+  // GP is GrandParent and this is second grand parent nested with a child component
   return (
     <>
       <div className="parent">

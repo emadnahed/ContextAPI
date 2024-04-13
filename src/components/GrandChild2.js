@@ -4,6 +4,7 @@ import { MyContext } from '../MyContext';
 
 const GrandChild2 = () => {
   const { count, setCount } = React.useContext(MyContext);
+  // Grand Child
   return (
     <div className="neumorphism-box" style={{ height: "130px", width: "130px", margin: "20px" }}>
       

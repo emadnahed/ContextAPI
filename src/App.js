@@ -6,6 +6,7 @@ import GP2 from "./components/GP2";
 
 function App() {
   const [count, setCount] = React.useState(0);
+  // There are two Grandparent components, GP is GrandParent
   return (
     <div className="main">
       <MyContext.Provider value={{ count, setCount }}>
