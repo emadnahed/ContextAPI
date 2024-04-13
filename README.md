@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+![]()
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Context API project
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+1. [Introduction](https://www.codechat.co/#introduction)
+2. [Setup](https://www.codechat.co/#setup)
+3. [Usage](https://www.codechat.co/#usage)
+4. [Components](https://www.codechat.co/#components)
+5. [Context](https://www.codechat.co/#context)
+6. [License](https://www.codechat.co/#license)
 
-### `npm start`
+## Introduction
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This project is a simple React application that demonstrates the use of context API to share state between components. The application contains two grandparent components, `GP1` and `GP2`, which are wrapped inside a `MyContext.Provider` component.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Setup
 
-### `npm test`
+To set up the project, follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repository to your local machine.
+2. Navigate to the project directory.
+3. Run `npm install` to install the dependencies.
 
-### `npm run build`
+## Usage
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To run the project, execute the following command:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+npm start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This will start the development server and open the application in your default web browser.
 
-### `npm run eject`
+## Components
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+The project contains the following components:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* `App`: The main component that sets up the context and renders the grandparent components.
+* `GP1` and `GP2`: The grandparent components that consume the context.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Context
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The context is set up using the `MyContext` component, which is imported from `./MyContext`. The context provider is set up in the `App` component, and the `count` state and `setCount` function are passed as the context value.
 
-## Learn More
+## License
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License.
