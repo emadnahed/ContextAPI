@@ -15,6 +15,10 @@
 
 This project is a simple React application that demonstrates the use of context API to share state between components. The application contains two grandparent components, `GP1` and `GP2`, which are wrapped inside a `MyContext.Provider` component.
 
+## Screenshot
+
+![image](https://github.com/emadnahed/ContextAPI/assets/81587039/ff17cb10-1060-43b1-9479-2f41af2f7b89)
+
 ## Setup
 
 To set up the project, follow these steps:
